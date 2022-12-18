@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <title> William Wu's Personal Website</title>
+   </head>
+   <body>
+      <header>
+         <nav role=navigation aria-label="Navigation Bar" class ="top-nav">
+            <ul>
+               <li aria-current="page"><a role="link" href="./index.html">About Me</a></li>
+               <li><a role="link" href="#project-section">Projects</a></li>
+               <li><a role="link" href="./resume.html">Resume</a></li>
+               <li><a role="link" href="./contact.html">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <!-- About Me/Biography Section -->
+         <h1 class="center"> About Me </h1>
+         <section class="center" aria-label = "Biography">
+            <p > Hello! I'm William! I'm currently a junior at Northwestern University
+            <br> pursuing a bachelor's in Computer Science. I am looking to gain industry
+            <br> experience through internships and other opportunities! Outside of class,
+            <br> I like to take night walks, listen to music, and watching movies!</p>
+            <div class="row">
+               <div class="column">
+                  <img id="walking-pic" src="./assets/walking.jpeg" alt="Person walking at night">
+               </div>
+               <div class="column">
+                  <img id="album-cover" src="./assets/album.png" alt="The Strokes album cover for their album The New Abnormal">
+               </div>
+               <div class="column">
+                  <img id="movie-pic" src="./assets/movie.jpg" alt="Movie poster for Drive My Car">
+               </div>
+            </div>
+         </section>
+
+         <!-- Project Section -->
+         <h1 class="center" id="project-section">Projects</h1>
+         <section class="center" aria-labelledby="project-section">
+            <div class="project-wrapper">
+               <div class="column">
+                  <p><b>Music Player UI</b></p>
+                  <a href="./player.html">
+                     <img id="player" src="./assets/musicplayer.png" alt="Music player UI description">
+                  </a>
+               </div>
+               <div class="column">
+                  <p><b>swap.nu</b></p>
+                  <a href="./swapnu.html">
+                     <img id="swap-nu" src="./assets/swapnu.JPG" alt="swap.nu description">
+                  </a>
+               </div>
+               <div class="column">
+                  <p><b>C++ Games</b></p>
+                  <a href="./games.html">
+                     <img id="reversi" src="./assets/reversi.png" alt="C++ games description">
+                  </a>
+               </div>
+            </div>
+         </section>
+      </main>
+   </body>
+</html>
